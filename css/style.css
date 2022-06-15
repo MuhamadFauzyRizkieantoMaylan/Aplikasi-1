@@ -1,0 +1,30 @@
+.container{
+    width: 100vw !important;
+    min-height:100vh;
+    display:flex; /* flex itu biar pendek kotaknya& dan kalau misal textnya panjang bakal ke kanan*/
+    justify-content: center;
+    align-items: center; /* biar full ditengah */
+    flex-direction: column;
+}
+
+.container form{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.container table{
+    
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.link-left{
+    display:flex;
+    justify-content: flex-end;
+   
+}
+
